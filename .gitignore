@@ -123,4 +123,7 @@ pip-selfcheck.json
 # VS Code
 .vscode
 
+# mutmut
+.mutmut-cache
+
 # End of https://www.gitignore.io/api/python
