@@ -36,4 +36,7 @@ jobs:
       run: mutmut -s run
       continue-on-error: true
     - name: Upload
-      run: ls -R
+      uses: actions/upload-artifact@v1
+      with:
+        name: Coverage
+        path: htmlcov
