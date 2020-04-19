@@ -33,6 +33,6 @@ jobs:
         coverage run --source=src --branch -m pytest
         coverage html
     - name: Mutation Test
-      run: mutmut run
+      run: mutmut -s run
     - name: Upload
       run: ls -R
