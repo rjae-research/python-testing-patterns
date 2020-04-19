@@ -34,5 +34,6 @@ jobs:
         coverage html
     - name: Mutation Test
       run: mutmut -s run
+      continue-on-error: true
     - name: Upload
       run: ls -R
